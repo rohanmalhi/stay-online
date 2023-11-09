@@ -1,7 +1,8 @@
-from pyautogui import size, press, write, moveTo, click
+from pyautogui import size, moveTo, click
 from time import sleep
 
 winSize = size()
+print("v2.1")
 print("Keeping you online...")
 
 while (1 == 1):
