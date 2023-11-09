@@ -1,17 +1,11 @@
 from pyautogui import size, press, write, moveTo, click
 from time import sleep
-#import pyautogui, time
 
 winSize = size()
-press("win")
-sleep(2.5)
-write("Microsoft Teams classic (work or school)")
-sleep(2.5)
-press("enter")
-sleep(5)
+print("Keeping you online...")
 
 while (1 == 1):
-    moveTo(winSize[0]/5, 32, 1)
+    moveTo(winSize[0]/2, winSize[1]/2, 1)
     click()
-    print()
+    print("Clicked!")
     sleep(60)
